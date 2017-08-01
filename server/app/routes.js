@@ -1,5 +1,5 @@
-var AuthenticationController = require('./controllers/authentication'),  
-    TodoController = require('./controllers/todos'),  
+var AuthenticationController = require('../controllers/authentication'),  
+    TodoController = require('../controllers/todos'),  
     express = require('express'),
     passportService = require('../config/passport'),
     passport = require('passport');
